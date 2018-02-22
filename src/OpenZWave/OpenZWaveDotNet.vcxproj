@@ -153,7 +153,7 @@
       <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>$(ProjectDir)\..\$(Configuration)\OpenZWave.lib;Ws2_32.lib;dnsapi.lib;</AdditionalDependencies>
+      <AdditionalDependencies>$(ProjectDir)\..\$(PlatformTarget)\$(Configuration)\OpenZWave.lib;Ws2_32.lib;dnsapi.lib;</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
