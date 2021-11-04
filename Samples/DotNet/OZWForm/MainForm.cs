@@ -201,7 +201,7 @@ namespace OZWForm
             ZWOptions.Instance.Initialize();
 
             // Add any app specific options here...
-            ZWOptions.Instance.AddOptionInt("SaveLogLevel", (int) ZWLogLevel.Detail);
+            ZWOptions.Instance.AddOptionInt("SaveLogLevel", (int) ZWLogLevel.Debug);//TODO BPC
             // ordinarily, just write "Detail" level messages to the log
             ZWOptions.Instance.AddOptionInt("QueueLogLevel", (int) ZWLogLevel.Debug);
             // save recent messages with "Debug" level messages to be dumped if an error occurs

@@ -12,23 +12,23 @@ namespace OpenZWave
 		/// <summary>These messages should always be shown</summary>
 		Always = LogLevel_Always,			   
 		/// <summary>A likely fatal issue in the library</summary>
-		Fatal = LogLevel_Fatal,				   
+		//Fatal = LogLevel_Fatal,				   
 		/// <summary>A serious issue with the library or the network</summary>
 		Error = LogLevel_Error,				   
 		/// <summary>A minor issue from which the library should be able to recover</summary>
 		Warning = LogLevel_Warning,			               
 		/// <summary>Something unexpected by the library about which the controlling application should be aware</summary>
-		Alert = LogLevel_Alert,				   			   
+		//Alert = LogLevel_Alert,				   			   
 		/// <summary>Everything is working fine...these messages provide streamlined feedback on each message</summary>
 		Info = LogLevel_Info,				   			   
 		/// <summary>Detailed information on the progress of each message</summary>
-		Detail = LogLevel_Detail,			   			   
+		//Detail = LogLevel_Detail,			   			   
 		/// <summary>Very detailed information on progress that will create a huge log file quickly. But this level (as others) can be queued and sent to the log only on an error or warning</summary>
 		Debug = LogLevel_Debug,				   			   
 		/// <summary>Will include low-level byte transfers from controller to buffer to application and back</summary>
-		StreamDetail = LogLevel_StreamDetail,  			   
+		//StreamDetail = LogLevel_StreamDetail,  			   
 		/// <summary>Used only within the log class (uses existing timestamp, etc.)</summary>
-		Internal = LogLevel_Internal           
+		//Internal = LogLevel_Internal           
 	};
 
 	// Controller interface types
@@ -79,7 +79,7 @@ namespace OpenZWave
 		/// <summary></summary>
 		PollingEnabled = Notification::Type_PollingEnabled,
 		/// <summary></summary>
-		SceneEvent = Notification::Type_SceneEvent,
+		//TODO BPC SceneEvent = Notification::Type_SceneEvent,
 		/// <summary></summary>
 		CreateButton = Notification::Type_CreateButton,
 		/// <summary></summary>
