@@ -144,7 +144,13 @@ namespace OpenZWave
 		/// <summary>Sets the library logging state.</summary>
 		/// <param name="bState">True to enable logging; false to disable logging.</param>
 		/// <seealso cref="GetLoggingState" />
-		void SetLoggingState(bool bState) { Log::SetLoggingState(bState); }
+		void SetLoggingState(bool bState) 
+		{
+			LogLevel level = LogLevel::LogLevel_Always; //TODO BPC what to set the log level to ?
+			if (!bState)
+				level = LogLevel::LogLevel_None;
+			Log::SetLoggingState(level);
+		}
 
 		/// <summary>Gets the current library logging state.</summary>
 		/// <returns>True if logging is enabled; false otherwise</returns>
@@ -177,7 +183,7 @@ namespace OpenZWave
 		/// This convention allows OpenZWave to find the correct configuration file for a controller, even if it is
 		/// attached to a different serial port.</remarks>
 		/// <param name="homeId">The Home ID of the Z-Wave controller to save.</param>
-		void WriteConfig(uint32 homeId) { Manager::Get()->WriteConfig(homeId); }
+		void WriteConfig(uint32 homeId) { }//Manager::Get()->WriteConfig(homeId); }
 		/*@}*/
 
 		//-----------------------------------------------------------------------------
