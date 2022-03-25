@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenZWaveDotNet", "OpenZWave\OpenZWaveDotNet.vcxproj", "{0DD42424-B4AB-45C3-897C-774D1C5917C3}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -32,14 +32,6 @@ Global
 		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Release|x64.Build.0 = Release|x64
 		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Release|x86.ActiveCfg = Release|Win32
 		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Release|x86.Build.0 = Release|Win32
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x64.ActiveCfg = Debug|x64
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x64.Build.0 = Debug|x64
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x86.ActiveCfg = Debug|Win32
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x86.Build.0 = Debug|Win32
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x64.ActiveCfg = Release|x64
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x64.Build.0 = Release|x64
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x86.ActiveCfg = Release|Win32
-		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x86.Build.0 = Release|Win32
 		{DF2FF0E9-4A18-42EC-BB5B-A73E742F26F0}.Debug|x64.ActiveCfg = Debug|x64
 		{DF2FF0E9-4A18-42EC-BB5B-A73E742F26F0}.Debug|x64.Build.0 = Debug|x64
 		{DF2FF0E9-4A18-42EC-BB5B-A73E742F26F0}.Debug|x86.ActiveCfg = Debug|x86
@@ -56,6 +48,14 @@ Global
 		{3A782BF0-5863-4500-A03F-51B2BD25EF2A}.Release|x64.Build.0 = Release|x64
 		{3A782BF0-5863-4500-A03F-51B2BD25EF2A}.Release|x86.ActiveCfg = Release|x86
 		{3A782BF0-5863-4500-A03F-51B2BD25EF2A}.Release|x86.Build.0 = Release|x86
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x64.ActiveCfg = Debug|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x64.Build.0 = Debug|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x86.ActiveCfg = Debug|Win32
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x86.Build.0 = Debug|Win32
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x64.ActiveCfg = Release|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x64.Build.0 = Release|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x86.ActiveCfg = Release|Win32
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
